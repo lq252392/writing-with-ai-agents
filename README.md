@@ -3,8 +3,7 @@
 > **AI Agent Writing Framework for Novelists**  
 > **长篇小说 AI 辅助写作框架**
 
-Agent写作法：长篇小说实战指南
-
+**写作 Skill** | **Agent 写作法** | 长篇小说实战指南
 ---
 
 ## 这是什么 / What is this?
@@ -120,7 +119,14 @@ README.md                           # This file / 本文件
 
 ## 关键词 / Keywords
 
-`AI Writing` `Agent Writing` `Novel Writing` `Longform Writing` `Writing Workflow` `AI-assisted Writing` `Structured Writing` `Writing Framework` `LLM Writing` `Collaborative Writing`
+`AI Writing` `Agent Writing` `Novel Writing` `Longform Writing` `Writing Workflow` `AI-assisted Writing` `Structured Writing` `Writing Framework` `LLM Writing` `Collaborative Writing` `写作 Skill` `Agent 写作法`
+
+---
+
+## 相关链接 / Links
+
+- **GitHub**: https://github.com/lq252392/writing-with-ai-agents
+- **Gitee**: https://gitee.com/lq2523/writing-with-ai-agents
 
 ---
 
