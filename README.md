@@ -92,17 +92,21 @@ README.md                           # This file / 本文件
 ```
 模糊想法 / Vague Idea
     ↓
-头脑风暴 / Brainstorming
+novel-workflow-gateway (分流任务)
     ↓
-总纲与章节提纲 / Outline
+novel-brainstorming (头脑风暴)
     ↓
-扩写正文 / Draft Writing
+novel-constraints-organizer (整理约束)
     ↓
-生成摘要 / Generate Summary
+novel-chapter-planning (章节规划)
     ↓
-一致性检查 / Consistency Check
+novel-scene-drafting (场景扩写)
     ↓
-更新设定 / Update Settings
+novel-continuity-review + novel-prose-flow-review (双重审稿)
+    ↓
+novel-scene-revising (定向修订，如有问题)
+    ↓
+novel-summary-state (状态回写)
     ↓
 进入下一章 / Next Chapter
 ```
