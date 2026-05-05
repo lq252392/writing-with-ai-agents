@@ -29,11 +29,15 @@
 ```
 .agents/
 └── skills/                        # Skill 模板 / Skill Templates
-    ├── 初始化小说工作区/           # Initialize Novel Workspace
-    ├── 小说头脑风暴/               # Novel Brainstorming
-    ├── 根据章节提纲扩写正文/       # Expand Outline to Draft
-    ├── 章节摘要生成/               # Generate Chapter Summary
-    └── 一致性检查/                 # Consistency Check
+    ├── novel-workflow-gateway/     # 小说工作流入口 / Novel Workflow Gateway
+    ├── novel-brainstorming/        # 小说头脑风暴 / Novel Brainstorming
+    ├── novel-constraints-organizer/ # 小说约束整理 / Novel Constraints Organizer
+    ├── novel-chapter-planning/     # 章节规划 / Chapter Planning
+    ├── novel-scene-drafting/       # 分场景扩写 / Scene Drafting
+    ├── novel-continuity-review/    # 连续性检查 / Continuity Review
+    ├── novel-prose-flow-review/    # 文笔与流畅性复审 / Prose Flow Review
+    ├── novel-scene-revising/       # 分场景修订 / Scene Revising
+    └── novel-summary-state/        # 摘要与状态回写 / Summary State
 
 大纲/                                # Outline / 大纲
 ├── 总纲.md                         # Main Outline
@@ -71,11 +75,15 @@ README.md                           # This file / 本文件
 
 | Skill | 用途 / Purpose |
 |-------|----------------|
-| [初始化小说工作区](.agents/skills/初始化小说工作区/SKILL.md) | Initialize workspace / 初始化工作区 |
-| [小说头脑风暴](.agents/skills/小说头脑风暴/SKILL.md) | Brainstorm ideas / 头脑风暴 |
-| [根据章节提纲扩写正文](.agents/skills/根据章节提纲扩写正文/SKILL.md) | Expand outline to draft / 扩写正文 |
-| [章节摘要生成](.agents/skills/章节摘要生成/SKILL.md) | Generate summary / 生成摘要 |
-| [一致性检查](.agents/skills/一致性检查/SKILL.md) | Check consistency / 一致性检查 |
+| [novel-workflow-gateway](.agents/skills/novel-workflow-gateway/SKILL.md) | Workflow entry point / 工作流入口 |
+| [novel-brainstorming](.agents/skills/novel-brainstorming/SKILL.md) | Brainstorm ideas / 头脑风暴 |
+| [novel-constraints-organizer](.agents/skills/novel-constraints-organizer/SKILL.md) | Organize constraints / 整理约束 |
+| [novel-chapter-planning](.agents/skills/novel-chapter-planning/SKILL.md) | Plan chapters / 章节规划 |
+| [novel-scene-drafting](.agents/skills/novel-scene-drafting/SKILL.md) | Draft scenes / 场景扩写 |
+| [novel-continuity-review](.agents/skills/novel-continuity-review/SKILL.md) | Check continuity / 连续性检查 |
+| [novel-prose-flow-review](.agents/skills/novel-prose-flow-review/SKILL.md) | Review prose flow / 文笔复审 |
+| [novel-scene-revising](.agents/skills/novel-scene-revising/SKILL.md) | Revise scenes / 场景修订 |
+| [novel-summary-state](.agents/skills/novel-summary-state/SKILL.md) | Summarize state / 状态摘要 |
 
 ---
 

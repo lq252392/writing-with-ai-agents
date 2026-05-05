@@ -7,9 +7,23 @@
 - 修改正文时优先局部修改，避免整章推翻重写
 
 ## Skill 使用规则
+
+### 核心 Skill 流程
+- **novel-workflow-gateway**: 工作流入口，负责分流任务到合适的 Skill
+- **novel-brainstorming**: 头脑风暴，逼清约束，不负责代替作者决定故事优劣
+- **novel-constraints-organizer**: 整理长期约束（人物、规则、线索、文风锚点）
+- **novel-chapter-planning**: 章节规划，拆解场景序列和状态变化
+- **novel-scene-drafting**: 场景扩写，开始前必须先读约束、状态和计划
+- **novel-continuity-review**: 连续性检查，只输出问题清单和建议
+- **novel-prose-flow-review**: 文笔复审，检查句子、节奏、文风偏移
+- **novel-scene-revising**: 场景修订，按 review 问题包定向修补
+- **novel-summary-state**: 状态回写，沉淀事件、人物状态、线索变化
+
+### 使用原则
 - 头脑风暴类 Skill 负责逼清约束，不负责代替作者决定故事优劣
 - 扩写类 Skill 开始前必须先读提纲、设定和相关摘要
 - 检查类 Skill 只输出问题清单和建议，不直接覆盖原稿
+- 独立审稿原则：起草者不负责给自己的稿子下最终审稿结论
 
 ## 写作顺序
 - 开写新章节前，先读取总纲、相关人物设定、上一章摘要、本章提纲
